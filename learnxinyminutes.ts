@@ -75,3 +75,10 @@ let mySearch: SearchFunc;
 mySearch = function (src: string, sub: string) {
     return src.search(sub) != -1;
 }
+
+// Classes - members are public by default
+class Point {
+    // Properties
+    x: number;
+}
+
