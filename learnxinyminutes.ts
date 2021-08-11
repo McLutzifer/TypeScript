@@ -48,3 +48,13 @@ let f4 = (i: number) => { return i * i; }
 // "Fat arrow"syntax with return type inferred, braceless means no return
 // keyword needed
 let f5 = (i: number) => i * i;
+
+
+// Interfaces are structural, anything that has the properties is
+// compliant with the interface
+interface Person {
+    // optional properties, marked with a "?"
+    age?: number;
+    // And of course functions
+    move(): void;
+}
