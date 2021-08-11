@@ -30,6 +30,5 @@ let c: Color = Color.Green;
 
 // Lastly, "void" is used in the special case of a function returning nothing
 function bigHorribleAlert(): void {
-    alert("I#m a little annoying box!");
-}
+    alert("I'm a little annoying box!");
 }
