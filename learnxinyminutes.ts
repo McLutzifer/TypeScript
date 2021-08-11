@@ -53,8 +53,13 @@ let f5 = (i: number) => i * i;
 // Interfaces are structural, anything that has the properties is
 // compliant with the interface
 interface Person {
+    name: string;
     // optional properties, marked with a "?"
     age?: number;
     // And of course functions
     move(): void;
 }
+
+// Object that implements the "Person" interface
+// Can be treated as a person since it has the name and move properties
+let p: Person = { name: "Bobby", move: () => { } }
