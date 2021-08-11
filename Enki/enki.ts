@@ -1,3 +1,3 @@
-let name = "Enki";
+let my_name = "Enki";
 
-console.log(`${name} is cool!`)
+console.log(`${my_name} is cool!`)
