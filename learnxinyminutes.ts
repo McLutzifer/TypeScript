@@ -80,5 +80,17 @@ mySearch = function (src: string, sub: string) {
 class Point {
     // Properties
     x: number;
+
+
+// Constructor - the public/private keywords in this context will generate
+// the boiler plate code for the property and the initialization in the
+// constructor.
+// In this example, "y" will be defined just like "x" is, but with less code
+// Default values are also supported
+
+    constructor(x: number, public y: number =0) {
+        this.x = x;
 }
+
+
 
