@@ -3,7 +3,7 @@
 
 let multiples = (range: number): number => {
     let sum = 0;
-    for (let i = 1; i <= range; i++) {
+    for (let i = 1; i < range; i++) {
         if (i%3 === 0 || i%5 === 0) {
             sum += i;
         }
@@ -11,4 +11,4 @@ let multiples = (range: number): number => {
     return sum;
 }
 
-console.log(multiples(10))
+console.log(multiples(1000))
