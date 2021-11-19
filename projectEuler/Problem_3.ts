@@ -8,3 +8,7 @@ const prime_factor = (num) =>{
         };
     };
 }
+
+let num = 13195;
+
+prime_factor(num);
