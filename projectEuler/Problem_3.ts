@@ -1,0 +1,5 @@
+
+
+const prime_factor = () =>{
+    
+}
