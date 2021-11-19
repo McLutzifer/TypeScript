@@ -1,0 +1,11 @@
+user.name=McLutzifer
+user.email=lukasschumi@gmx.at
+core.autocrlf=input
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/McLutzifer/TypeScript.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
